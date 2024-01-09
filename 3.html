@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+</head>
+<body>
+    <header>
+        <link rel="stylesheet" href="2.css">
+        <h1>Bienvenue sur Techsell</h1>
+        <nav>
+            <ul>
+                <li><a href="/1.html">Accueil</a></li>
+                <li><a href="/2.html">Produits</a></li>
+                <li><a href="/3.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+<h2>Inscription</h2>
+
+<form action="/process_inscription" method="post">
+    <label for="email">Adresse e-mail :</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+
+    <label for="password">Mot de passe :</label>
+    <input type="password" id="password" name="password" required>
+    <br>
+
+    <input type="submit" value="S'inscrire">
+</form>
+
+</body>
+</html>
